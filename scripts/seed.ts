@@ -16,20 +16,6 @@ export default async () => {
       // uncomment the lines below and run 'yarn rw prisma migrate dev'
       //
       /* eslint-disable @typescript-eslint/no-unused-vars */
-      {
-        firstName: 'alice',
-        lastName: 'anderson',
-        email: 'alice@example.com',
-        address: '1 smith rd, glenview, Gisborne, 9067',
-        message: 'hello world',
-      },
-      {
-        firstName: 'bob',
-        lastName: 'baker',
-        email: 'bod@email.com',
-        address: '1 testing place, glenview, Gisborne, 9067',
-        message: 'hello world',
-      },
     ]
     console.log(
       "\nUsing the default './scripts/seed.{js,ts}' template\nEdit the file to add seed data\n"
@@ -57,7 +43,7 @@ export default async () => {
     //     { name: 'john', email: 'john@example.com', password: 'secret1' },
     //     { name: 'jane', email: 'jane@example.com', password: 'secret2' }
     //   ]
-    //
+    // √
     //   for (const user of users) {
     //     const [hashedPassword, salt] = hashPassword(user.password)
     //     await db.user.create({
@@ -77,4 +63,3 @@ export default async () => {
 function now() {
   throw new Error('Function not implemented.')
 }
-
