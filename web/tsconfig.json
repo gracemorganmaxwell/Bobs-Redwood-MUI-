@@ -1,5 +1,10 @@
 {
   "compilerOptions": {
+    "strict": true,
+    "lib": ["es6", "dom"],
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "strictNullChecks": true,
     "noEmit": true,
     "allowJs": true,
     "esModuleInterop": true,

@@ -10,24 +10,26 @@ export default async () => {
     //
     // Update "const data = []" to match your data model and seeding needs
     //
+    /* eslint-disable @typescript-eslint/no-unused-vars */
     const data: Prisma.UserExampleCreateArgs['data'][] = [
       // To try this example data with the UserExample model in schema.prisma,
       // uncomment the lines below and run 'yarn rw prisma migrate dev'
       //
-     // { id: 00001,
-      //  created_at:  now(),
-      //  firstName: 'alice',
-       // lastName:'anderson',
-      //  email: 'alice@example.com',
-       // address:"1 smith rd, glenview, Gisborne, 9067",
-      //  message: "hello world"},
-     // { id: 00002,
-      //  created_at:  now(),
-       // firstName: 'bob',
-       // lastName:'baker',
-       // email: 'bod@email.com',
-       // address:"1 testing place, glenview, Gisborne, 9067",
-       // message: "hello world"},
+      /* eslint-disable @typescript-eslint/no-unused-vars */
+      {
+        firstName: 'alice',
+        lastName: 'anderson',
+        email: 'alice@example.com',
+        address: '1 smith rd, glenview, Gisborne, 9067',
+        message: 'hello world',
+      },
+      {
+        firstName: 'bob',
+        lastName: 'baker',
+        email: 'bod@email.com',
+        address: '1 testing place, glenview, Gisborne, 9067',
+        message: 'hello world',
+      },
     ]
     console.log(
       "\nUsing the default './scripts/seed.{js,ts}' template\nEdit the file to add seed data\n"
