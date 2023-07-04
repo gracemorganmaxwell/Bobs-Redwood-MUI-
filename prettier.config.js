@@ -1,7 +1,7 @@
 // https://prettier.io/docs/en/options.html
 /** @type {import('prettier').RequiredOptions} */
 module.exports = {
-  tailwindConfig: './tailwind.config.js',
+  tailwindConfig: './web/config/tailwind.config.js',
   plugins: [require('prettier-plugin-tailwindcss')],
   trailingComma: 'es5',
   bracketSpacing: true,
